@@ -21,21 +21,22 @@ mojPrzycisk.addEventListener('click', function(){
     //document.body.appendChild(sasiad);
 
     
-}),
+});
 
 przyciskUsuwania.addEventListener('click', function(){
 const usunDiv = document.querySelectorAll('.do-usuniecia');
 const ostatni = usunDiv[usunDiv.length - 1];
 ostatni.remove();
-})
+});
 
 kolorowyPrzycisk.addEventListener('click', function(){
 kolorowyPrzycisk.style.backgroundColor = "red";
-})
+});
 
 nowyTekst.addEventListener('click', function(){
 const wszystkieElementy = document.querySelectorAll('button, .do-usuniecia');
 wszystkieElementy.forEach(function(element){
     element.innerText = "Nowy tekst";
-})
-})
+});
+
+});
